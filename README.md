@@ -1,6 +1,22 @@
 # Python Function Challenges
 
+<br>
+
+## Instructions
+
+1. Fork and clone this repo
+2. `cd` into the directory and open in `code`
+3. Put your work in the `starter.py` file.
+4. in the terminal, run `python starter.py` to run the file
+
+
+<br>
+
+## Objectives
+
 Now it's time to practice some of these Python skillz. Below are four challenges meant to tie together all the concepts that we've learned so far. You may have solved similar problems using JavaScript. That's great! Use that knowledge to apply the same abstract concepts but update the syntax to make it work for Python.
+
+<br>
 
 ## Challenges
 
