@@ -1,6 +1,17 @@
 # 1. Write a function named sum_to() that takes a number parameter n and returns the sum of the numbers from 1 to n. For example:
+def sum_to(num):
+    sum=0
+    for n in range(1,num+1):
+        sum += n
+    return sum
+print(sum_to(10))
 
 
+# user=int(input("Enter a number: "))
+# sum_to=0
+# for n in range(1,user+1):
+#     sum_to+=n
+# print("Sum is ", sum_to)
 
 
 
