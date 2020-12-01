@@ -17,8 +17,14 @@ print(sum_to(10))
 
 # 2. Write a function named largest() that takes a list parameter and returns the largest element in that list. You can assume the list contents are all positive numbers. For example:
 
-
-
+# num=([10, 4, 2, 231, 91, 54])
+# sort_num=sorted(num)
+# print(sort_num[-1])
+def largest(num):   
+    sort_num=sorted(num)
+    print(sort_num[-1])
+# largest([10, 4, 2, 231, 91, 54])
+largest([1,2,3,4,0])
 
 
 # 3. Write a function named occurances() that takes two string parameters and counts the number of occurrances of the second string inside the first string. For example:
