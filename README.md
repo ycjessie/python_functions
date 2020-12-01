@@ -20,7 +20,7 @@ Now it's time to practice some of these Python skillz. Below are four challenges
 
 ## Challenges
 
-1. Write a function named `sum_to()` that takes a number parameter `n` and returns the sum of the numbers from 1 to n. For example:
+##### 1. Write a function named `sum_to()` that takes a number parameter `n` and returns the sum of the numbers from 1 to n. For example:
 
 ```python
 sum_to(6)  # returns 21
@@ -29,7 +29,7 @@ sum_to(10) # returns 55
 
 <br>
 
-2. Write a function named `largest()` that takes a list parameter and returns the largest element in that list. You can assume the list contents are all *positive* numbers. For example:
+##### 2. Write a function named `largest()` that takes a list parameter and returns the largest element in that list. You can assume the list contents are all *positive* numbers. For example:
 
 ```python
 largest([10, 4, 2, 231, 91, 54])  # returns 231
@@ -38,7 +38,7 @@ largest([1,2,3,4,0])  # returns 4
 
 <br>
 
-3. Write a function named `occurances()` that takes two string parameters and counts the number of occurrances of the second string inside the first string. For example:
+##### 3. Write a function named `occurances()` that takes two string parameters and counts the number of occurrances of the second string inside the first string. For example:
 
 ```python
 occurances('fleep floop', 'e')   # returns 2
@@ -49,11 +49,11 @@ occurances('fleep floop', 'fe')  # returns 0
 
 <br>
 
-4. Write a function named `product()` that takes an *arbitrary* number of parameters, multiplies them all together, and returns the product. (HINT: Review your notes on `*args`).
+##### 4. Write a function named `product()` that takes an *arbitrary* number of parameters, multiplies them all together, and returns the product. (HINT: Review your notes on `*args`).
 
 <br>
 
-5. DRY Up Some Code. Read the following Python code that violates the principle of *don't repeat yourself* (DRY).
+##### 5. DRY Up Some Code. Read the following Python code that violates the principle of *don't repeat yourself* (DRY).
 
 ```python
 print('How far did person 1 run (in feet)?')
@@ -156,11 +156,11 @@ That's all I got for ya!!!!
 <br>
 
 
-# 6. (STRETCH) Challenge Yourself
+##### 6. (STRETCH) Challenge Yourself
 
 _Exercise 6 is **optional** if you would like to challenge yourself. You are **not expected** to complete this part. Difficulty: Medium/Hard_
 
-## Part 1
+###### Part 1
 
 Write a FUNction called `is_even` that accepts a number as an argument and returns a boolean (true/false) indicating whether that number is even or not even (that is, odd).
 
@@ -168,7 +168,7 @@ Write a FUNction called `is_even` that accepts a number as an argument and retur
 
 Be sure to try calling it with different numbers.
 
-## Part 2
+###### Part 2
 
 Let's write a FUNction `wrap_text` that wraps text in symbols of our choice.
 
