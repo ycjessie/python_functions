@@ -45,7 +45,7 @@ occurances('fleep floop', "p")
 
 
 # 4. Write a function named product() that takes an arbitrary number of parameters, multiplies them all together, and returns the product. (HINT: Review your notes on *args).
-#an arbitrary number of parameters
+#an arbitrary number of parameters:https://www.w3schools.com/python/python_functions.asp
 #math.prod https://www.geeksforgeeks.org/python-multiply-numbers-list-3-different-ways/
 import math
 def product(*args):
@@ -86,6 +86,11 @@ print('Well done everyone!')
 # 6. (STRETCH) Challenge Yourself - Exercise 6 is optional if you would like to challenge yourself. You are not expected to complete this part. Difficulty: Medium/Hard
 
 # Part 1 - Write a FUNction called is_even that accepts a number as an argument and returns a boolean (true/false) indicating whether that number is even or not even (that is, odd).
-
+def is_Even(num):
+    if(num%2==0):
+        print(f"{num} is an even number")
+    else:
+        print(f"{num} is a odd number")
+is_Even(33)
 
 # Part 2 - Let's write a FUNction wrap_text that wraps text in symbols of our choice.
