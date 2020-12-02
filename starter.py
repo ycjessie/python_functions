@@ -57,16 +57,25 @@ print(product(6,2,3,4))
 
 # 5. DRY Up Some Code. Read the following Python code that violates the principle of don't repeat yourself (DRY).
 
-distance1 = float(input('How far did person 1 run (in feet)?'))
-mins1 = float(input(f'How many minutes did person 1 run take to run {distance1} feet?'))
-distance2 = float(input('How far did person 2 run (in feet)?'))
-mins2 = float(input(f'How many minutes did person 2 run take to run {distance2} feet?'))
-distance3 = float(input('How far did person 3 run (in feet)?'))
-mins3 = float(input(f'How many minutes did person 3 run take to run {distance3} feet?'))
+def ask_for_distance(person):
+    return float(input(f"How far did person {person} run (in feet)?"))
+def ask_for_minutes(person,distance):
+    return float(input(f'How many minutes did person {person} run take to run {distance} feet?'))
 
-speed1 = distance1/(mins1 * 60)
-speed2 = distance2/(mins2 * 60)
-speed3 = distance3/(mins3 * 60)
+def compute_speed(distance,minute):
+    return distance/(minute*60)
+
+distance1 = ask_for_distance(1)
+mins1 = ask_for_minutes(1,distance1)
+distance2 = ask_for_distance(2)
+mins2 = ask_for_minutes(2,distance2)
+distance3 = ask_for_distance(3)
+mins3 = ask_for_minutes(3,distance3)
+
+speed1 = compute_speed(distance1,mins1)
+speed2 = compute_speed(distance2,mins2)
+speed3 = compute_speed(distance3,mins3)
+
 # Award Ceremonies
 if speed3 > speed2 and speed3 > speed1:
     print(f'Person 3 was the fastest at {speed3} f/s')
@@ -78,8 +87,6 @@ elif speed1 == speed2 and speed2 == speed3:
     print(f'Everyone tied at {speed1} m/s')
 
 print('Well done everyone!')
-
-
 <br>
 
 
