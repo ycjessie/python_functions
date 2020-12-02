@@ -28,7 +28,18 @@ largest([1,2,3,4,0])
 
 
 # 3. Write a function named occurances() that takes two string parameters and counts the number of occurrances of the second string inside the first string. For example:
-
+def occurances(string,sub):
+    count=string.count(sub)
+    print(count)
+occurances('fleep floop', "e")
+occurances('fleep floop', "p")
+# string=('fleep floop', "fe")
+# string1=string[0]
+# substring=string[-1]
+# count=string1.count(substring)
+# print(string1)
+# print(substring)
+# print(count)
 
 
 
