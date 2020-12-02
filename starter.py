@@ -95,9 +95,9 @@ print('Well done everyone!')
 # Part 1 - Write a FUNction called is_even that accepts a number as an argument and returns a boolean (true/false) indicating whether that number is even or not even (that is, odd).
 def is_Even(num):
     if(num%2==0):
-        print(f"{num} is an even number")
+        return print(True)
     else:
-        print(f"{num} is a odd number")
-is_Even(33)
+        return print(False)
+is_Even(15)
 
 # Part 2 - Let's write a FUNction wrap_text that wraps text in symbols of our choice.
