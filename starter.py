@@ -45,7 +45,12 @@ occurances('fleep floop', "p")
 
 
 # 4. Write a function named product() that takes an arbitrary number of parameters, multiplies them all together, and returns the product. (HINT: Review your notes on *args).
-
+#an arbitrary number of parameters
+#math.prod https://www.geeksforgeeks.org/python-multiply-numbers-list-3-different-ways/
+import math
+def product(*args):
+    return math.prod(args)
+print(product(6,2,3,4))
 
 
 
