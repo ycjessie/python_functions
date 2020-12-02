@@ -57,30 +57,16 @@ print(product(6,2,3,4))
 
 # 5. DRY Up Some Code. Read the following Python code that violates the principle of don't repeat yourself (DRY).
 
-print('How far did person 1 run (in feet)?')
-distance1 = float(input())
-print(f'How many minutes did person 1 run take to run {distance1} feet?')
-mins1 = float(input())
+distance1 = float(input('How far did person 1 run (in feet)?'))
+mins1 = float(input(f'How many minutes did person 1 run take to run {distance1} feet?'))
+distance2 = float(input('How far did person 2 run (in feet)?'))
+mins2 = float(input(f'How many minutes did person 2 run take to run {distance2} feet?'))
+distance3 = float(input('How far did person 3 run (in feet)?'))
+mins3 = float(input(f'How many minutes did person 3 run take to run {distance3} feet?'))
 
-print('How far did person 2 run (in feet)?')
-distance2 = float(input())
-print(f'How many minutes did person 2 run take to run {distance2} feet?')
-mins2 = float(input())
-
-print('How far did person 3 run (in feet)?')
-distance3 = float(input())
-print(f'How many minutes did person 3 run take to run {distance3} feet?')
-mins3 = float(input())
-
-secs1 = mins1 * 60
-speed1 = distance1/secs1
-
-secs2 = mins2 * 60
-speed2 = distance2/secs2
-
-secs3 = mins3 * 60
-speed3 = distance3/secs3
-
+speed1 = distance1/(mins1 * 60)
+speed2 = distance2/(mins2 * 60)
+speed3 = distance3/(mins3 * 60)
 # Award Ceremonies
 if speed3 > speed2 and speed3 > speed1:
     print(f'Person 3 was the fastest at {speed3} f/s')
